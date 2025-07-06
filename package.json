@@ -1,0 +1,22 @@
+{
+	"name": "the_island",
+	"type": "module",
+	"version": "0.0.1",
+	"description": "3D explorable island, created with Babylon JS",
+	"author": "",
+	"license": "MIT",
+	"homepage": "https://github.com/martinrossil/the_island#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/martinrossil/the_island.git"
+	},
+	"bugs": {
+		"url": "https://github.com/martinrossil/the_island/issues"
+	},
+	"keywords": [],
+	"main": "index.js",
+	"scripts": {
+		"dev": "vite",
+		"lint": "eslint ."
+	}
+}
