@@ -1,7 +1,9 @@
 import antfu from '@antfu/eslint-config';
 
 export default antfu({
+	ignores: ['vite.config.mts', 'node_modules'],
 	rules: {
+		'no-console': 'warn',
 		'perfectionist/sort-array-includes': 'error',
 		'perfectionist/sort-classes': 'error',
 		'perfectionist/sort-exports': 'error',
